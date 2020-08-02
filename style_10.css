@@ -68,6 +68,22 @@ footer {
 }
 
 
+@media screen and (max-width: 768px) {
+	main{
+		width: 100%;
+	}
+	.item {
+		float: none;
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	.item:nth-child(2) {
+		margin: 20px 5%;
+	}
+}
+
+
 
 
 
